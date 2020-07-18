@@ -13,7 +13,7 @@ interface SingInCredentials {
 
 interface AuthContextData {
   user: object;
-  signIn(credentials: SingInCredentials): Promisse<void>;
+  signIn(credentials: SingInCredentials): Promise<void>;
   signOut(): void;
 }
 
